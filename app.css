@@ -1,0 +1,52 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+}
+
+/* Styling the heading */
+h1 {
+    font-size: 2rem;
+    margin: 20px 0;
+    color: #333;
+}
+
+/* Styling the score display */
+#p1Display, #p2Display {
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: #2a9d8f; /* A teal color */
+}
+
+/* Styling the buttons */
+button {
+    font-size: 1rem;
+    padding: 10px 20px;
+    margin: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #2a9d8f; /* Teal color */
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #21867a; /* Darker teal color for hover effect */
+}
+
+/* Styling the select dropdown */
+select {
+    font-size: 1rem;
+    padding: 10px;
+    margin: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+/* Ensure consistent box-sizing for all elements */
+* {
+    box-sizing: border-box;
+}
